@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GPL-3.0-only"
+[[mods]]
+modId="alet"
+version="${mod_version}"
+displayName="A Little Extra Tiles: Images & Text"
+authors="Docvin (original ALET); unofficial 1.21.1 port contributors"
+description='''The Photo Importer and Typewriter features of ALET, adapted to modern LittleTiles blueprints.'''
+[[dependencies.alet]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.alet]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.256,)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.alet]]
+modId="littletiles"
+type="required"
+versionRange="[1.6.0-pre233,)"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.alet]]
+modId="creativecore"
+type="required"
+versionRange="[2.13.50,)"
+ordering="AFTER"
+side="CLIENT"

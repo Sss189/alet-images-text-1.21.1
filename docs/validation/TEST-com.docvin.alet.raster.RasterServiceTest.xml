@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.docvin.alet.raster.RasterServiceTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-10-09T14:35:02.721Z" hostname="local-test" time="1.576">
+  <properties/>
+  <testcase name="cancellationStopsBeforeDoingWork()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.064"/>
+  <testcase name="automaticallyKeepsAspectRatioAndUsesNearestPixelScaling()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.025"/>
+  <testcase name="readsJpegAndIndexedPngWithoutAssumingByteRasterLayout()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.077"/>
+  <testcase name="rejectsUnsupportedDataAndMissingFile()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.013"/>
+  <testcase name="transparentPixelsStayEmptyWhenPartialAlphaIsMadeOpaque()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.006"/>
+  <testcase name="scalingPreservesNonPremultipliedLowAlphaRgbExactly()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.009"/>
+  <testcase name="colorParsingAndQuantizationPreserveAlphaAndChannels()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.009"/>
+  <testcase name="rectangleCompressionHasNoGapsOrOverlapsForRandomPixelArt()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.034"/>
+  <testcase name="mirrorReversesColumnsWithoutChangingColors()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.007"/>
+  <testcase name="fontNameAndInputLimitsAreValidated()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.732"/>
+  <testcase name="mergesLargeSolidRegionWithoutChangingPixels()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.024"/>
+  <testcase name="retainsExactPaletteAlphaAndTopDownCoordinates()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.006"/>
+  <testcase name="readsQuotedChineseFilePath()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.016"/>
+  <testcase name="textHasRequestedColorAndSupportsMultilineAndRotation()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.535"/>
+  <testcase name="boundsOutputAndColorCountsAndRejectsTransparentImage()" classname="com.docvin.alet.raster.RasterServiceTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
